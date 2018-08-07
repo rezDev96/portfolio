@@ -69,7 +69,7 @@ body{
     width: 100%;
     text-align: center;
     color: #fff;
-    font-family: 'Copperplate', serif;
+    font-family: 'Copperplate', 'Exo', serif;
 }
 
 #banner-content h1{
@@ -285,11 +285,12 @@ body{
     color: #b2bec3;
 }
 
-#footer .footer-icons{
+#footer .footer-icons li{
     display: inline-block;
     list-style: none;
     font-size: 40px;
     margin-top:15px;
+    margin-right: 15px;
 }
 
 #footer .footer-icons a{
