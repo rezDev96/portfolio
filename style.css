@@ -195,15 +195,17 @@ body{
 #portfolio .portfolio-col .modal-content img{
     height: 100%;
     width: 80%;
+    margin-bottom: 50px;
 }
 
-#portfolio .portfolio-col .modal-content button{
-    padding: 5px 50px;
+#portfolio .portfolio-col .modal-content .portfolio-btn{
+    padding: 10px 80px;
     font-size: 20px;
     font-weight: 100;
+    letter-spacing: 1px;
     color: #fff;
     background-color: rgb(29, 178, 150);
-    margin-top: 25px;
+    text-decoration: none;
 }
 
 /* CONTACT */
