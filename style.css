@@ -54,7 +54,7 @@ body{
 /* BANNER */
 #banner{
     height: 100vh;
-    background-image: url('img/banner.jpg');
+    background-image: url('img1/banner1.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -124,7 +124,7 @@ body{
 
 /* ABOUT */
 #about{
-    background-image: url('img/aboutpic.jpg');
+    background-image: url('img1/aboutpic.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
