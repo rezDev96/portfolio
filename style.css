@@ -63,7 +63,7 @@ body{
 }
 
 #banner #banner-content{
-    position: absolute;
+    position: relative;
     top: 40vh;
     display: block;
     width: 100%;
