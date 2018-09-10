@@ -146,12 +146,14 @@ body{
 #about h2{
     font-weight: 300;
     color: rgb(29, 178, 150);
+    padding-bottom: 20px;
 }
 
 #about p{
     font-size: 19px;
     line-height: 1.7em;
     font-weight: 300;
+    padding-bottom: 20px;
 }
 
 #about .fa-check{
