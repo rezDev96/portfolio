@@ -22,6 +22,11 @@ body{
     color: #fff;
 }
 
+.navbar-default .navbar-brand:hover {
+    color: rgb(29, 178, 150);
+    transition: all 300ms;
+}
+
 .navbar-default .navbar-nav li{
     text-align: center;
     padding: 0 10px;
@@ -34,7 +39,7 @@ body{
 .navbar-inverse .navbar-nav>li>a:hover {
     color: rgb(29, 178, 150);
     border-bottom: 2px solid rgb(29, 178, 150);
-    transition: linear 200ms;
+    transition: linear 300ms;
 }
 
 .navbar-default .navbar-toggle {
@@ -55,7 +60,7 @@ body{
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
     color: rgb(29, 178, 150);
     border-bottom: 2px solid rgb(29, 178, 150);
-    transition: linear 200ms;
+    transition: linear 300ms;
     background-color: inherit;
 }
 
@@ -218,7 +223,12 @@ body{
     color: #fff;
     background-color: rgb(29, 178, 150);
     text-decoration: none;
-    width: 100%;
+}
+
+#portfolio .portfolio-col .modal-content .portfolio-btn:hover{
+    background-color: #dfe6e9;
+    color: rgb(29, 178, 150);
+    transition: linear 300ms;
 }
 
 /* CONTACT */
@@ -294,6 +304,12 @@ body{
     border: 0;
 }
 
+#contact button:hover{
+    color: rgb(29, 178, 150);
+    background-color: #dfe6e9;
+    transition: linear 200ms;
+}
+
 /* FOOTER */
 #footer{
     background-color: #222;
@@ -327,6 +343,11 @@ body{
     margin-left: 15px;
 }
 
+#footer .footer-icons a:hover{
+    color: #dfe6e9;
+    transition: linear 300ms;
+}
+
 /* MEDIA QUERIES */
 /* Mobile Devices */
 @media(max-width: 767px){
@@ -341,6 +362,15 @@ body{
 
     #portfolio .portfolio-col{
         margin-bottom: 50px;
+    }
+
+    .modal-dialog {
+        margin: 35px;
+    }
+
+    #portfolio .portfolio-col .modal-content .portfolio-btn{
+        width: 100%;
+        display: inline-block;
     }
 
     #contact{
