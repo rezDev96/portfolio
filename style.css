@@ -32,8 +32,8 @@ body{
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
-    color: #fff;
-    border-bottom: 2px solid #fff;
+    color: rgb(29, 178, 150);
+    border-bottom: 2px solid rgb(29, 178, 150);
     transition: linear 200ms;
 }
 
@@ -53,8 +53,8 @@ body{
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-    color: #fff;
-    border-bottom: 2px solid #fff;
+    color: rgb(29, 178, 150);
+    border-bottom: 2px solid rgb(29, 178, 150);
     transition: linear 200ms;
     background-color: inherit;
 }
