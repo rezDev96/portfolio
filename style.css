@@ -75,7 +75,7 @@ body{
     box-shadow: 0 3px 3px rgba(0,0,0,.9);
 }
 
-#banner #banner-content{
+#banner-content{
     position: relative;
     top: 40vh;
     display: block;
@@ -204,18 +204,18 @@ body{
     padding: 30px 30px;
 }
 
-#portfolio .portfolio-col .modal-content p{
+.modal-content p{
     font-size: 18px;
     line-height: 1.7em;
 }
 
-#portfolio .portfolio-col .modal-content img{
+.modal-content img{
     height: 100%;
     width: 80%;
     margin-bottom: 50px;
 }
 
-#portfolio .portfolio-col .modal-content .portfolio-btn{
+.modal-content .portfolio-btn{
     padding: 10px 80px;
     font-size: 20px;
     font-weight: 100;
@@ -225,7 +225,7 @@ body{
     text-decoration: none;
 }
 
-#portfolio .portfolio-col .modal-content .portfolio-btn:hover{
+.modal-content .portfolio-btn:hover{
     background-color: #dfe6e9;
     color: rgb(29, 178, 150);
     transition: linear 300ms;
@@ -368,7 +368,7 @@ body{
         margin: 80px 10px;
     }
 
-    #portfolio .portfolio-col .modal-content .portfolio-btn{
+    .modal-content .portfolio-btn{
         width: 100%;
         display: inline-block;
     }
