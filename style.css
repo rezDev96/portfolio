@@ -261,8 +261,6 @@ body{
     border-right-width: 0px;
     border-left-width: 0px;
     border-bottom: 2px solid rgb(29, 178, 150);
-}
-#contact form input[type="email"]{
     outline: none;
 }
 
@@ -273,9 +271,6 @@ body{
     border-right-width: 0px;
     border-left-width: 0px;
     border-bottom: 2px solid rgb(29, 178, 150);
-}
-
-#contact form input[type="text"]{
     outline: none;
 }
 
@@ -287,10 +282,7 @@ body{
     border-right-width: 0px;
     border-left-width: 0px;
     border-bottom: 2px solid rgb(29, 178, 150);
-    height: 150px; 
-}
-
-#contact textarea{
+    height: 150px;
     outline: none;
 }
 
