@@ -67,7 +67,7 @@ body{
 /* BANNER */
 #banner{
     height: 100vh;
-    background-image: url('img1/banner1.jpg');
+    background-image: url('img1/hero-banner.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -82,7 +82,7 @@ body{
     width: 100%;
     text-align: center;
     color: #fff;
-    font-family: 'Copperplate', 'Exo', serif;
+    font-family: 'Exo', serif;
     text-transform: uppercase;
 }
 
@@ -90,12 +90,14 @@ body{
     font-size: 55px;
     letter-spacing: 20px;
     font-weight: 300;
+    animation: fadeIn 9s;
 }
 
 #banner-content h3{
     font-size: 20px;
     letter-spacing: 10px;
     font-weight: 100;
+    animation: fadeIn 15s;
 }
 
 /* INFO */
@@ -117,7 +119,7 @@ body{
 }
 
 .info-content .big-icon{
-    font-size: 80px;
+    font-size: 60px;
     border-radius: 20%;
     background-color: rgb(29, 178, 150);
     color: #fff;
@@ -125,7 +127,7 @@ body{
 }
 
 .info-content .fa-mobile-alt{
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .info-content h3{
@@ -339,6 +341,17 @@ body{
     color: #dfe6e9;
     transition: linear 300ms;
 }
+/* KEYFRAMES */
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+  
+    45% {
+      opacity: 1;
+    }
+  }
+
 
 /* MEDIA QUERIES */
 /* Mobile Devices */
@@ -350,10 +363,6 @@ body{
     
     .info-column{
       margin-bottom: 50px;
-    }
-
-    #portfolio .portfolio-col{
-        margin-bottom: 50px;
     }
 
     .modal-dialog {
