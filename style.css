@@ -90,6 +90,7 @@ body{
     font-size: 55px;
     letter-spacing: 20px;
     font-weight: 300;
+    -webkit-animation: fadeIn 9s;
     animation: fadeIn 9s;
 }
 
@@ -97,7 +98,8 @@ body{
     font-size: 20px;
     letter-spacing: 10px;
     font-weight: 100;
-    animation: fadeIn 15s;
+    -webkit-animation: fadeIn 14s;
+    animation: fadeIn 14s;
 }
 
 /* INFO */
@@ -123,7 +125,7 @@ body{
     border-radius: 20%;
     background-color: rgb(29, 178, 150);
     color: #fff;
-    padding: 30px;
+    padding: 25px;
 }
 
 .info-content .fa-mobile-alt{
@@ -198,12 +200,13 @@ body{
 #portfolio img{
     height: 100%;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 15px;
     outline: none;
 }
 
 .modal-content{
     padding: 30px 30px;
+    border-radius: 40px;
 }
 
 .modal-content p{
@@ -225,6 +228,7 @@ body{
     color: #fff;
     background-color: rgb(29, 178, 150);
     text-decoration: none;
+    border-radius: 50px;
 }
 
 .modal-content .portfolio-btn:hover{
@@ -295,6 +299,7 @@ body{
     padding: 10px 20px;
     font-size: 1.8rem;
     font-weight: 300;
+    border-radius: 50px;
     border: 0;
 }
 
