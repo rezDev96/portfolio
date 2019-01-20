@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <!-- CSS File -->
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body data-spy="scroll" data-target="#header" data-offset="10">
     <!-- NAVBAR -->
@@ -90,7 +91,7 @@
     <section id="about">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12 showcase-left">
                     <h2>About Me</h2>
                     <p>I’ve been working in logistics since 2014 not sure what I wanted and trying to figure out what is my passion... That is until my uncle introduced me to Front-end Web Development in late 2017. I was able to get a better grasp on front-end by just starting out having fun with making small projects and playing with styles and JavaScript. When I made my very first website, I felt like I was king of the world! I’m primarily focusing on front-end, for now, it won't be easy but I strive to eventually become a full-stack developer one day.</p>
                     <ul>
@@ -112,11 +113,13 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
+                    <h2 class="showcase-top">Portfolio</h2>
                 </div>
                 <div class="col-sm-12 col-md-3">
-                    <h3 class="text-center">La Voz d. Salvador</h3>
-                    <a href="#" data-toggle="modal" data-target="#project1"><img class="lazy" data-src="img1/portfoliopic3.jpg" alt="La Voz del Salvador"></a>
+                    <div class="showcase-left">
+                        <h3 class="text-center">La Voz d. Salvador</h3>
+                        <a href="#" data-toggle="modal" data-target="#project1"><img class="lazy" data-src="img1/portfoliopic3.jpg" alt="La Voz del Salvador"></a>
+                    </div>
                     <div class="modal fade bs-example-modal-lg" id="project1" tabindex="-1" role="dialog">
                         <div class="modal-dialog modal-lg" role="document">
                             <div class="modal-content">
@@ -138,8 +141,10 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-3">
-                    <h3 class="text-center">RGB Color Game</h3>
-                    <a href="#" data-toggle="modal" data-target="#project2"><img class="lazy" data-src="img1/colorGame.jpg" alt="The Great RGB Color Game"></a>
+                    <div class="showcase-left">
+                        <h3 class="text-center">RGB Color Game</h3>
+                        <a href="#" data-toggle="modal" data-target="#project2"><img class="lazy" data-src="img1/colorGame.jpg" alt="The Great RGB Color Game"></a>
+                    </div>
                     <div class="modal fade bs-example-modal-lg" id="project2" tabindex="-1" role="dialog">
                         <div class="modal-dialog modal-lg" role="document">
                             <div class="modal-content">
@@ -159,8 +164,10 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-3">
-                    <h3 class="text-center">YelpCamp</h3>
-                    <a href="#" data-toggle="modal" data-target="#project3"><img class="lazy" data-src="img1/portfoliopic1.jpg" alt="YelpCamp"></a>
+                    <div class="showcase-right">
+                        <h3 class="text-center">YelpCamp</h3>
+                        <a href="#" data-toggle="modal" data-target="#project3"><img class="lazy" data-src="img1/portfoliopic1.jpg" alt="YelpCamp"></a>
+                    </div>
                     <div class="modal fade bs-example-modal-lg" id="project3" tabindex="-1" role="dialog">
                         <div class="modal-dialog modal-lg" role="document">
                             <div class="modal-content">
@@ -182,8 +189,10 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-3">
-                    <h3 class="text-center">Hero</h3>
-                    <a href="#" data-toggle="modal" data-target="#project4"><img class="lazy" data-src="img1/portfoliopic4.jpg" alt="Hero Email"></a>
+                    <div class="showcase-right">
+                        <h3 class="text-center">Hero</h3>
+                        <a href="#" data-toggle="modal" data-target="#project4"><img class="lazy" data-src="img1/portfoliopic4.jpg" alt="Hero Email"></a>
+                    </div>
                     <div class="modal fade bs-example-modal-lg" id="project4" tabindex="-1" role="dialog">
                         <div class="modal-dialog modal-lg" role="document">
                             <div class="modal-content">
@@ -211,12 +220,12 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Get in Touch</h2>
+                    <h2 class="showcase-top">Get in Touch</h2>
                 </div>
-                <div class="col-sm-12 col-lg-6 contact-info">
+                <div class="col-sm-12 col-lg-6 contact-info showcase-left">
                     <h4>Feel free to reach out. I'd love to hear from you!</h4>
                 </div>
-                <div class="col-sm-12 col-lg-6 contact-text">
+                <div class="col-sm-12 col-lg-6 contact-text showcase-right">
                     <form action="https://formspree.io/tperez08483@gmail.com" method="POST">
                         <input type="email" name="email" id="email" placeholder="Enter your email">
                         <input type="text" name="name" id="name" placeholder="Enter your name"><br>
@@ -233,9 +242,9 @@
     <!-- FOOTER -->
     <footer id="footer">
         <div class="container">
-            <div class="row">
+            <div class="row showcase-top">
                 <div class="col-sm-7">
-                    <h2>Tommy <span class="slim">Perez</span> </h2>
+                    <h2>Tommy <span class="slim">Perez</span></h2>
                     <small>&copy; Copyright 2019. All rights reserved.</small>
                 </div>
                 <div class="col-sm-5">
