@@ -367,6 +367,10 @@ body{
         margin-right: auto;
         margin-left: auto; 
     }
+
+    #banner-content{
+        top: 140px;
+    }
     
     .info-column{
       margin-bottom: 50px;
