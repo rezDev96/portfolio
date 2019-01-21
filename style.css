@@ -106,15 +106,14 @@ body{
 
 /* INFO */
 #info{
-    padding-top: 100px;
-    padding-bottom: 70px;
+    padding: 120px 0 100px 0;
     color: #4d4c4c;
     background-color: #fff;
     font-family: 'Exo';
 }
 
 #info h3{
-    font-weight: 400;
+    font-weight: 600;
 }
 
 #info p{
@@ -128,6 +127,8 @@ body{
     background-color: rgb(29, 178, 150);
     color: #fff;
     padding: 25px;
+    -webkit-box-shadow: 1px 2px 23px -4px rgba(0,0,0,0.73);
+    box-shadow: 1px 2px 23px -4px rgba(0,0,0,0.73);
 }
 
 .info-content .fa-mobile-alt{
@@ -183,8 +184,8 @@ body{
 #portfolio{
     font-family: 'Exo', sans-serif;
     background-color: rgb(45, 52, 54);
-    padding-bottom: 90px;
     padding-top: 50px;
+    padding-bottom: 140px;
 }
 
 #portfolio h2{
@@ -204,6 +205,8 @@ body{
     width: 100%;
     border-radius: 15px;
     outline: none;
+    -webkit-box-shadow: 1px 2px 23px -4px rgba(0,0,0,0.73);
+    box-shadow: 1px 2px 23px -4px rgba(0,0,0,0.73);
 }
 
 .modal-content{
@@ -303,6 +306,8 @@ body{
     font-weight: 300;
     border-radius: 50px;
     border: 0;
+    -webkit-box-shadow: 1px 2px 23px -4px rgba(0,0,0,0.73);
+    box-shadow: 1px 2px 23px -4px rgba(0,0,0,0.73);
 }
 
 #contact button:hover{
@@ -357,9 +362,7 @@ body{
     45% {
       opacity: 1;
     }
-  }
-
-
+}
 /* MEDIA QUERIES */
 /* Mobile Devices */
 @media(max-width: 767px){
@@ -367,50 +370,39 @@ body{
         margin-right: auto;
         margin-left: auto; 
     }
-
     #banner-content{
         top: 140px;
     }
-    
     .info-column{
       margin-bottom: 50px;
     }
-
     .modal-dialog {
         margin: 80px 10px;
     }
-
     .modal-content .portfolio-btn{
         width: 100%;
         display: inline-block;
     }
-
     #contact{
         text-align: center;
     }
-
     #contact form{
         margin-top: 40px;
     }
-
     #contact form input[type="email"]{
         width: 100%;
         margin-bottom: 30px
     }
-
     #contact form input[type="text"]{
         width: 100%;
     }
-
     #contact button{
         width: 100%;
     }
-
     #footer{
         text-align: center;
     }
-    
     #footer .footer-icons a{
         margin-left: 10px;
     }
-  }
+}
