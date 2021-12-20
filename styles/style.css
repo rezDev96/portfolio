@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding-top: 70px;
+  position: relative;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.container-fluid {
+  max-width: 960px;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border: 0;
+}
+
+.navbar-default {
+  padding: 10px;
+}
+
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
