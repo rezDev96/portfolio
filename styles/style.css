@@ -21,5 +21,41 @@ body {
 
 .navbar-default .navbar-brand {
   color: #fff;
+  font-family: "Exo", sans-serif;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #1db296;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+
+.navbar-default .navbar-nav li {
+  padding: 0 10px;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav li a:hover {
+  color: #1db296;
+  -webkit-transition: linear 300ms;
+  transition: linear 300ms;
+}
+
+.navbar-default .main-menu {
+  font-size: 16px;
+  font-family: "Exo", sans-serif;
+  margin-left: 15rem;
+  text-align: center;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: inherit;
 }
 /*# sourceMappingURL=style.css.map */

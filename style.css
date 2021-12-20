@@ -45,6 +45,7 @@ body{
     margin-left: 15rem;
     text-align: center;
 }
+/* might not include in SASS */
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
     color: rgb(29, 178, 150);
     transition: linear 300ms;
