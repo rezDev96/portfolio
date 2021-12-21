@@ -58,4 +58,58 @@ body {
 .navbar-default .navbar-toggle:hover {
   background-color: inherit;
 }
+
+#banner {
+  height: 100vh;
+  background-image: url("/img1/hero-banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.9);
+          box-shadow: 0 3px 3px rgba(0, 0, 0, 0.9);
+}
+
+#banner #banner-content {
+  position: relative;
+  top: 200px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-family: "Exo", serif;
+  text-transform: uppercase;
+  -webkit-animation: fadeIn 9s;
+          animation: fadeIn 9s;
+}
+
+#banner #banner-content h1 {
+  font-size: 55px;
+  letter-spacing: 20px;
+  font-weight: 300;
+}
+
+#banner #banner-content h3 {
+  font-size: 20px;
+  letter-spacing: 10px;
+  font-weight: 100;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 1;
+  }
+}
 /*# sourceMappingURL=style.css.map */
