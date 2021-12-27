@@ -81,6 +81,32 @@ body{
         }
     }
 }
+// Info
+#info{
+    padding: 120px 0 100px 0;
+    color: #4d4c4c;
+    background-color: #fff;
+    font-family: 'Exo';
+    h3{
+        font-weight: 600;
+        margin-top: 40px;
+    }
+    p{
+        line-height: 1.6em;
+        font-size: 18px;
+    }
+    .info-content .big-icon{
+        font-size: 60px;
+        border-radius: 20%;
+        background-color: $primaryColor;
+        color: #fff;
+        padding: 25px;
+        box-shadow: 1px 2px 23px -4px rgba(0,0,0,0.73);
+        .fa-mobile-alt{
+            font-size: 40px;
+        }
+    }
+}
 
 // KEYFRAMES
 @keyframes fadeIn {

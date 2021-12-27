@@ -120,10 +120,6 @@ body{
 .info-content h3{
     margin-top: 40px;
 }
-
-.info-content .info-column p{
-    font-size: 16px;
-}
 /* ABOUT */
 #about{
     background-image: url('img1/aboutpic.jpg');

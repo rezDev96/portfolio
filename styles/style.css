@@ -95,6 +95,37 @@ body {
   font-weight: 100;
 }
 
+#info {
+  padding: 120px 0 100px 0;
+  color: #4d4c4c;
+  background-color: #fff;
+  font-family: 'Exo';
+}
+
+#info h3 {
+  font-weight: 600;
+  margin-top: 40px;
+}
+
+#info p {
+  line-height: 1.6em;
+  font-size: 18px;
+}
+
+#info .info-content .big-icon {
+  font-size: 60px;
+  border-radius: 20%;
+  background-color: #1db296;
+  color: #fff;
+  padding: 25px;
+  -webkit-box-shadow: 1px 2px 23px -4px rgba(0, 0, 0, 0.73);
+          box-shadow: 1px 2px 23px -4px rgba(0, 0, 0, 0.73);
+}
+
+#info .info-content .big-icon .fa-mobile-alt {
+  font-size: 40px;
+}
+
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0;
