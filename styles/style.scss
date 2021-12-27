@@ -107,6 +107,38 @@ body{
         }
     }
 }
+// About
+#about{
+    background-image: url('/img1/aboutpic.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    font-family: 'Exo', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 90px;
+    h2{
+        font-weight: 300;
+        color: $primaryColor;
+        padding-bottom: 20px;
+    }
+    p{
+        font-size: 19px;
+        line-height: 1.7em;
+        font-weight: 300;
+        padding-bottom: 20px;
+    }
+    ul li{
+        font-size: 18px;
+        list-style-type: none;
+        line-height: 1.7em;
+        font-weight: 300;
+    }
+    .fa-check{
+        color: $primaryColor;
+    }
+}
 
 // KEYFRAMES
 @keyframes fadeIn {
