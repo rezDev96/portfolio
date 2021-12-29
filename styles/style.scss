@@ -139,7 +139,6 @@ body{
         color: $primaryColor;
     }
 }
-
 // Portfolio
 #portfolio{
     font-family: $mainFont, sans-serif;
@@ -192,7 +191,6 @@ body{
         }
     }
 }
-
 // Contact
 #contact{
     font-family: $mainFont, sans-serif;
@@ -249,6 +247,37 @@ body{
                 color: $primaryColor;
                 background-color: #dfe6e9;
                 transition: linear 200ms;
+            }
+        }
+    }
+}
+// footer
+#footer{
+    background-color: #222;
+    font-family: 'Exo', sans-serif;
+    padding-bottom: 15px;
+    h2{
+        color: $primaryColor;
+        font-weight: 400;
+    }
+    .slim{
+        font-weight: 100;
+    }
+    small{
+        color: #b2bec3;
+    }
+    .footer-icons li{
+        display: inline-block;
+        list-style: none;
+        font-size: 40px;
+        margin-top: 15px;
+        margin-right: 15px;
+        a{
+            color: $primaryColor;
+            margin-left: 15px;
+            &:hover{
+                color: #dfe6e9;
+                transition: linear 300ms;
             }
         }
     }

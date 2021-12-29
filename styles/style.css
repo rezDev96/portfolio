@@ -293,6 +293,44 @@ body {
   transition: linear 200ms;
 }
 
+#footer {
+  background-color: #222;
+  font-family: 'Exo', sans-serif;
+  padding-bottom: 15px;
+}
+
+#footer h2 {
+  color: #1db296;
+  font-weight: 400;
+}
+
+#footer .slim {
+  font-weight: 100;
+}
+
+#footer small {
+  color: #b2bec3;
+}
+
+#footer .footer-icons li {
+  display: inline-block;
+  list-style: none;
+  font-size: 40px;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+#footer .footer-icons li a {
+  color: #1db296;
+  margin-left: 15px;
+}
+
+#footer .footer-icons li a:hover {
+  color: #dfe6e9;
+  -webkit-transition: linear 300ms;
+  transition: linear 300ms;
+}
+
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0;
