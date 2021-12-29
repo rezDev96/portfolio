@@ -193,6 +193,67 @@ body{
     }
 }
 
+// Contact
+#contact{
+    font-family: $mainFont, sans-serif;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    color: #222;
+    h2{
+        font-weight: 300;
+        color: $primaryColor;
+        padding-bottom: 50px;
+    }
+    form{
+        width: 100%;
+        input[type="email"]{
+            width: 49%;
+            height: 35px;
+            border-top-width: 0px;
+            border-right-width: 0px;
+            border-left-width: 0px;
+            border-bottom: 2px solid $primaryColor;
+            outline: none;
+        }
+        input[type="text"]{
+            width: 49%;
+            height: 35px;
+            border-top-width: 0px;
+            border-right-width: 0px;
+            border-left-width: 0px;
+            border-bottom: 2px solid $primaryColor;
+            outline: none;
+        }
+        textarea{
+            margin-top: 30px;
+            width: 100%;
+            height: 100%;
+            border-top-width: 0px;
+            border-right-width: 0px;
+            border-left-width: 0px;
+            border-bottom: 2px solid $primaryColor;
+            height: 150px;
+            outline: none;
+        }
+        button{
+            background-color: $primaryColor;
+            color: #fff;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1.8rem;
+            font-weight: 300;
+            border-radius: 50px;
+            border: 0;
+            box-shadow: 1px 2px 23px -4px rgba(0,0,0,0.73);
+            &:hover{
+                color: $primaryColor;
+                background-color: #dfe6e9;
+                transition: linear 200ms;
+            }
+        }
+    }
+}
+
 // KEYFRAMES
 @keyframes fadeIn {
     0% {
