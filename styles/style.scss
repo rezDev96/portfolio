@@ -1,6 +1,5 @@
 $primaryColor: rgb(29, 178, 150);
 $mainFont: 'Exo';
-
 body{
     margin: 0;
     padding-top: 70px;
@@ -48,6 +47,9 @@ body{
         &:hover{
             background-color: inherit;
         }
+        &:focus{
+            background-color: inherit;
+        }
     }
 }
 // Banner
@@ -68,7 +70,7 @@ body{
         color: #fff;
         font-family: $mainFont, serif;
         text-transform: uppercase;
-        animation: fadeIn 9s;
+        animation: fadeIn 7s;
         h1{
             font-size: 55px;
             letter-spacing: 20px;
@@ -254,7 +256,7 @@ body{
 // footer
 #footer{
     background-color: #222;
-    font-family: 'Exo', sans-serif;
+    font-family: $mainFont, sans-serif;
     padding-bottom: 15px;
     h2{
         color: $primaryColor;
@@ -282,7 +284,47 @@ body{
         }
     }
 }
-
+//Media Query for mobile devices
+@media(max-width: 767px){
+    .main-menu{
+        margin-left: auto;
+    }
+    #banner-content{
+        top: 140px;
+    }
+    .info-column{
+        margin-bottom: 50px;
+    }
+    .modal-dialog {
+        margin: 80px 10px;
+    }
+    .modal-content .portfolio-btn{
+        width: 100%;
+        display: inline-block;
+    }
+    #contact{
+        text-align: center;
+        form{
+            margin-top: 40px;
+            input[type="email"]{
+                width: 100%;
+                margin-bottom: 30px;
+            }
+            input[type="text"]{
+                width: 100%;
+            }
+            button{
+                width: 100%;
+            }
+        }
+    }
+    footer{
+        text-align: center;
+        .footer-icons a{
+            margin-left: 10px;
+        }
+    }
+}
 // KEYFRAMES
 @keyframes fadeIn {
     0% {
