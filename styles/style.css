@@ -63,6 +63,13 @@ body {
   background-color: inherit;
 }
 
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+  color: #1db296;
+  -webkit-transition: linear 300ms;
+  transition: linear 300ms;
+  background-color: inherit;
+}
+
 #banner {
   height: 100vh;
   background-image: url("/img1/hero-banner.jpg");
@@ -336,10 +343,11 @@ body {
 }
 
 @media (max-width: 767px) {
-  .main-menu {
+  #header .navbar .main-menu {
     margin-left: auto;
+    margin-right: auto;
   }
-  #banner-content {
+  #banner #banner-content {
     top: 140px;
   }
   .info-column {

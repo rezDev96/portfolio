@@ -52,6 +52,11 @@ body{
         }
     }
 }
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: rgb(29, 178, 150);
+    transition: linear 300ms;
+    background-color: inherit;
+}
 // Banner
 #banner{
     height: 100vh;
@@ -286,10 +291,11 @@ body{
 }
 //Media Query for mobile devices
 @media(max-width: 767px){
-    .main-menu{
+    #header .navbar .main-menu{
         margin-left: auto;
+        margin-right: auto;
     }
-    #banner-content{
+    #banner #banner-content{
         top: 140px;
     }
     .info-column{
